@@ -14,7 +14,6 @@
 		<li>gib die Vercell-Url zu deinem Projekt in Teams ab.</li>
 	</ul>
 </div>
-mach mir eine geordnete Liste aller Länder die in der Tabelle countries gespeichert sind.
 {#await promise}
 	<div><span class="loading loading-dots loading-lg" /></div>
 {:then result}
