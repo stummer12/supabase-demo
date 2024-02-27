@@ -9,14 +9,14 @@
 		<li>
 			anstatt eines JS_Objekts das auf der Seite dargestellt wir möchte ich eine Liste aller Länder
 		</li>
-		<li>integriere einen Loading Spinner öÄ von daisyUi in dein Projekt</li>
+		<li><span class="loading loading-dots loading-lg" /></li>
 
 		<li>gib die Vercell-Url zu deinem Projekt in Teams ab.</li>
 	</ul>
 </div>
 
 {#await promise}
-	<div>...loading</div>
+	<div><span class="loading loading-dots loading-lg" /></div>
 {:then result}
 	<div>{JSON.stringify(result)}</div>
 {/await}
