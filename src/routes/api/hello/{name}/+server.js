@@ -1,4 +1,4 @@
-export function GET(request){
+export function GET(request) {
     const name = request.params.name;
-    return new Response(`Hello, ${name}!`);
+    return new Response(`Hello ${name}!`);
 }
